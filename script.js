@@ -69,8 +69,8 @@ to(
 '#frosting',
 {
   duration: 1,
-  //morphSVG: '.cake__frosting--end'
-  opacity: 1,
+  morphSVG: '.cake__frosting--end'
+  //opacity: 1,
    },
 
 0);
@@ -100,7 +100,7 @@ to('.candle__flame-outer', {
   duration: flickerSpeed,
   repeat: -1,
   yoyo: true,
-  //morphSVG: '#flame-outer' 
+  morphSVG: '#flame-outer' 
   }).
 
 to(
@@ -109,7 +109,7 @@ to(
   duration: flickerSpeed,
   repeat: -1,
   yoyo: true,
-  //morphSVG: '#flame-inner'
+  morphSVG: '#flame-inner'
     },
 
 0);
