@@ -70,6 +70,7 @@ to(
 {
   duration: 1,
   //morphSVG: '.cake__frosting--end'
+  opacity: 1,
    },
 
 0);
